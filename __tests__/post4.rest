@@ -1,0 +1,9 @@
+
+POST http://localhost:3000/property/add HTTP/1.1
+content-type: application/json
+
+{
+    "address": "800 Collins St, Docklands 3001",
+    "description": "Mixed office and retail space",
+    "price": 55000000
+}
